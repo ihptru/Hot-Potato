@@ -1,0 +1,24 @@
+tart:
+
+tail -f -n0 -s 0.01 /path/to/ladderlog.txt | ./parse.sh | tee -a /path/to/cmds.txt
+
+
+### Addition ArmagetronAd server settings:
+FLAG_CHAT_BLINK_TIME -1
+FLAG_BLINK_TIME 1.5
+FLAG_BLINK_ON_TIME 0.3
+FLAG_BLINK_START 0.2
+FLAG_BLINK_END 1.0
+FLAG_BLINK_ESTIMATE_POSITION 0.6
+FLAG_BLINK_TRACK_TIME -1
+
+FLAG_REQUIRED_HOME 1
+FLAG_DROP_HOME 0
+
+FLAG_DROP_TIME 3
+
+GAME_TYPE 0
+SP_GAME_TYPE 0
+
+ladderlog_game_time_interval 0.5
+FLAG_TEAM 0
